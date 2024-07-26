@@ -1,0 +1,87 @@
+    O que é CONCATENAÇÃO?
+Concatenar significa: conexão entre, colocar junto.
+
+Este ato de COMBINAR OBJETOS STRING dentro de uma EXPRESSÃO chama-se CONCATENAÇÃO. O operador para CONCATENAR é o sinal de mais (+). Aos 10:18 de vídeo ele inseriu a VARIÁVEL STRING  nome  logo APÓS ao VALOR STRING do método alert(), juntando-os com o operador (+). Ilustração:
+window.alert('É um grande prazer em te conhecer, ' + nome)
+Ou seja:
+window.alert('VALOR STRING' + VARIÁVEL STRING)
+
+  PONTOS IMPORTANTES:
+caso faça: (number + string), o JavaScript tratará o  number  como uma  string  . Ex:
+let x = 16 + "Volvo"
+x valerá: "16Volvo"
+
+O JavaScript AVALIA as EXPRESSÕES da ESQUERDA para DIREITA. Portanto, SEQUÊNCIAS DIFERENTES resultarão em RESULTADOS DIFERENTES. Ex:
+let x = 16 + 4 + "Volvo"
+x valerá: "20Volvo"
+Ou seja, SOMOU-SE os NUMBERS 16 e 4 e o resultado foi CONCATENADO com a STRING "Volvo".
+(number + number) + string
+number + string
+string
+
+let x = "Volvo" + 16 + 4
+x valerá: "Volvo164"
+Ou seja, CONCATENOU-SE "Volvo" com 16 e o resultado foi CONCATENADO com o 4.
+(string + number) + number
+string + number
+string
+
+  Como fazer CONVERSÕES de TIPO de DADO:
+O método window.prompt() retorna, por padrão, um valor do tipo STRING. Então, para fazer a soma 2 NUMBERS, é necessário converter o dado padrão de STRING para NUMBER nos 2 métodos.
+
+Relembrando:
+(string + string) o sinal de (+) fará: concatenação
+(string + number) o sinal de (+) fará: concatenação
+(number + number) o sinal de (+) fará: adição
+
+O método parseInt() VERIFICA um valor STRING e retorna um valor INTEIRO.
+
+O método parseFloat() VERIFICA um valor STRING e retorna um valor REAL (Floating Point Number).
+
+O método Number() CONVERTE um valor STRING para um valor NUMBER.
+
+O método String() CONVERTE um valor NUMBER para um valor STRING.
+
+      Template Literals (Modelo Literal)
+
+É quando você circunda ELEMENTOS utilizando CRASES  ` `  ao invés de aspas simples  ' '  ou duplas  " ".
+  Características:
+-Dispõem os caracteres de maneira LITERAL, ou seja, quebras de linha (enter) e espaços (SpaceBar) serão CONSIDERADOS;
+-Permite o uso de placeholders, que são expressões delimitadas por um cifrão e 2 chaves. Syntax: ${expressão};
+-Os placeholders permitem a INTERPOLAÇÃO de STRINGS.
+
+    CONCATENAÇÃO vs INTERPOLAÇÃO:
+
+  Variáveis para exemplo:
+var nome  = "Shaolin"
+var apelido = "Matador de Porco"
+var idade = 66
+
+    Concatenação:
+maneira antiga, usa-se aspas simples ' ' ou duplas " ";
++difícil de ler e escrever;
++complexo de escrever em linhas diferentes (precisa usar o Escape Character: \n);
++complicado de pôr aspas dentro da string (gera conflito. Precisa usar o Escape Character: \").
+
+  Escrita do código:
+console.log("Seu nome é " + nome + ", mais conhecido como \"" + nome + " " + apelido + "\"." + 
+"\nHoje ele tem " + idade + " anos de idade.")
+
+  Resultado:
+Seu nome é Shaolin, mais conhecido como "Shaolin Matador de Porco".
+Hoje ele tem 66 anos de idade.
+
+vs
+
+    Interpolação:
+maneira nova, usa-se crases ` `;
++fácil de ler e escrever;
++simples de escrever em linhas diferentes (basta apertar enter);
++simples de pôr aspas dentro da string (basta colocá-las onde quiser).
+
+  Escrita do código:
+console.log(`Seu nome é ${nome}, mais conhecido como "${nome} ${apelido}".
+Hoje ele tem ${idade} anos de idade.`)
+
+  Resultado (igual ao da concatenação):
+Seu nome é Shaolin, mais conh

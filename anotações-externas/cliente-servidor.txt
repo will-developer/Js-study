@@ -1,0 +1,21 @@
+ Diferença entre Cliente e Servidor:
+
+Cliente - Computador que solicita dados de um servidor. Solicita. Consome serviços.
+Ex: Desktop, laptop, smartphone, tablet, navegador web
+
+Servidor - Computador que fornece dados à um cliente. Responde. Oferece serviços.
+Ex: Servidores de banco de dados, servidores de arquivos, servidores da web
+
+---
+
+Um site é geralmente composto por: HTML, CSS e JS.
+
+HTML (HyperText Markup Language) - Conteúdo - Textos, imagens, áudios, vídeos.
+
+CSS (Cascading Style Sheets) - Design/Estilo - É responsável pela FORMATAÇÃO do CONTEÚDO. O objetivo é torná-lo mais atrativo, agradável e palatável para o cliente. Formata, alinha, organiza, realoca, dimensiona, posiciona e destaca os conteúdos.
+
+JS (JavaScript) - Integração/Interação - Um botão de ampliar uma imagem e deixar o fundo escurecido junto de um botão de voltar, exibir uma descrição/legenda ou um preview ao passar o cursor em cima de algum conteúdo, links, etc. Inclusive, o JavaScript também pode modificar o conteúdo (HTML) e o estilo (CSS).
+
+Essas 3 tecnologias funcionando em conjunto compõem a parte de CLIENTE da maioria dos sites hoje em dia.
+
+*HTML e CSS NÃO SÃO linguagens de programação. São apenas tecnologias de construção de sites. Já o JavaScript, este sim é uma linguagem de programação.

@@ -1,0 +1,30 @@
+
+  Estrutura Condicional Simples: IF (se)
+
+Se (if) condição1 for VERDADEIRA, execute o Bloco A.
+
+  Ilustração:
+if (condição1) {
+Bloco A
+}
+
+Se condição1 for TRUE, execute o bloco TRUE (Bloco A).
+____________________________
+
+  Estrutura Condicional Composta: IF/ELSE (se/senão)
+
+Se (if) condição1 for VERDADEIRA, execute o Bloco A.
+Senão (else), execute o Bloco B.
+
+  Ilustração:
+if (condição1) {
+Bloco A
+} else {
+Bloco B
+}
+
+Se condição1 for TRUE, execute o bloco TRUE (Bloco A).
+Senão for TRUE, execute o bloco FALSE (Bloco B).
+____________________________
+
+O método  console.log()  serve para ESCREVER (log) uma MENSAGEM no console.

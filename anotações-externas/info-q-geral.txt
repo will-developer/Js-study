@@ -1,0 +1,36 @@
+Você consegue responder?
+
+Q01 - Sabe que empresa criou o JavaScript?
+NetScape.
+
+Q02 - Java e JavaScript possuem alguma relação?
+Java e JavaScript são linguagens completamente diferentes. A semelhança de seus nomes deve-se ao fato de que, na época, estava em alta na mídia o termo "Java", onde dizia-se que esta linguagem era a linguagem do futuro e que todo mundo deveria aprender. Portanto, a Netscape, em uma jogada de marketing, decidiu mudar o nome de sua linguagem de LiveScript para JavaScript, com o objetivo de 'surfar' nesta tendência.
+
+Q03 - O que ECMAScript tem a ver com JavaScript?
+ECMAScript é a versão padronizada do JavaScript.
+
+---
+
+Como aprender?
+
+Assistir as aulas;
+Praticar;
+Ler manuais e referências;
+Fazer anotações;
+Interagir com pessoas e ajudá-las a entender o conteúdo;
+Criar projetos pessoais e resolvê-los com programação.
+
+---
+
+Bibliografia
+
+JavaScript: O Guia Definitivo - David Flanagan
+
+JavaScript - Guia do Programador - Mauricio Samy Silva
+
+O guia de referência da Mozilla (grátis)
+developer.mozilla .org /pt-BR/docs/Web/JavaScript
+developer.mozilla .org /pt-BR/docs/Web/JavaScript/guide
+
+O guia de referência da ECMA (grátis)
+ecma-international .org /publications-and-standards/standards/ecma-262/

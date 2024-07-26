@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Primeiros passos com dom</title>
+        <style>
+            body {
+                background-color: rgb(154, 106, 106);
+                color: white;
+                font: normal 18pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Iniciando estudos DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p>Aprendendo a usar o <strong>DOM</strong> no JavaScript</p>
+        <div id="msg">Clique em mim</div>
+
+        <script>
+            // window.document.write(window.navigator.appName);
+
+            // existe uma arvore onde window é o root do javascript e tem os filhos como html por exemplo, e vc pode acessa-la por marca, por id, por nome, por classe, por seletor
+
+            //por marca > getElementsByTagName() (seleciona varios elementos (varios <p>) por exemplo)
+            var p1 = document.getElementsByTagName("p")[0];
+            // document.write('aqui está meu primeiro paragrafo = ', p1.innerText);
+
+            //id
+            // window.document.getElementById("msg").innerText = "Olá";
+            var d = window.document.getElementById("msg");
+            d.style.background = "green";
+            d.innerText = "Estou aguardando...";
+            // CLASS E NAME SÃO QUASE A MESMA COISA NÃO TEM ERRO
+
+            //POR SELETOR ******************* USAR MAIS ESSE METODO
+            var d = window.document.querySelector("#msg");
+            d.style.background = "blue";
+
+            // mudando o css pelo js
+            var corpo = window.document.body;
+            corpo.style.background = "black";
+            p1.style.color = "blue";
+        </script>
+    </body>
+</html>

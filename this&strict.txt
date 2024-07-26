@@ -1,0 +1,18 @@
+O que é  this  ?
+
+this  é uma keyword que refere-se a um OBJETO.  this  NÃO É uma VARIÁVEL. Você NÃO PODE MUDAR o VALOR de  this  .
+Mas QUAL objeto  this  refere-se? Isto dependerá de COMO esta keyword foi utilizada ou chamada:
+
+Em um MÉTODO,  this  refere-se ao OBJETO (exemplo anterior).
+Sozinha,  this  refere-se ao OBJETO GLOBAL.
+Em uma FUNÇÃO,  this  refere-se ao OBJETO GLOBAL.
+Em uma FUNÇÃO, em modo estrito (*strict mode),  this  é undefined.
+Em um EVENTO,  this  refere-se ao ELEMENTO que RECEBEU o EVENTO.
+Métodos como  call(),  apply()  e  bind()  , podem referir  this  a QUALQUER OBJETO.
+
+  *O que é Strict Mode?
+
+O comando:  "use strict"  , indica que um código DEVE SER EXECUTADO em Strict Mode, modo estrito. Este pode ser utilizado no INÍCIO do SCRIPT, agindo GLOBALMENTE, ou DENTRO de uma FUNÇÃO ESPECÍFICA, agindo LOCALMENTE.
+Este modo serve para REVELAR MÁS PRÁTICAS de ESCRITA, SYNTAX, ao lançar NOVAS MENSAGENS de ERRO no CONSOLE do NAVEGADOR, que antes passariam desapercebidas. Portanto, este modo auxilia na escrita de um código mais "clean", previnindo que você atribua um valor à uma variável antes de declará-la
+
+EX: abra o arquivo strict.js

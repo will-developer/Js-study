@@ -1,0 +1,24 @@
+ Estruturas de  (Laços || Iterações || Repetições || Looping)  :
+
+  while (enquanto)
+
+Esta estrutura faz o teste lógico ANTES de rodar o programa.
+
+Enquanto (while) condição1 for VERDADEIRA, execute o Bloco A.
+
+Ilustração:
+while (condição1) {
+Bloco A
+}
+____________________________
+
+  do/while (faça/enquanto)
+
+Esta estrutura faz o teste lógico DEPOIS de rodar o programa.
+
+Faça (do) a execução do Bloco A, enquanto (while) condição1 for VERDADEIRA.
+
+Ilustração:
+do {
+Bloco A
+} while (condição1)

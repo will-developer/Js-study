@@ -1,0 +1,11 @@
+O que é um NAVEGADOR? Como ele funciona?
+
+  A ferramenta NAVEGADOR serve para INTERMEDIAR a COMUNICAÇÃO entre CLIENTE e SERVIDORES. Ex:
+O cliente, por meio de um navegadorzin, quer abrir o site Gugãl:
+O navegadorzin faz a SOLICITAÇÃO ao SERVER do Gugol;
+O servidor RESPONDE enviando uma CÓPIA do site Guguzin;
+O browser RECEBE esta CÓPIA;
+O browser RENDERIZA esta COPY;
+O bowser EXIBE esta COPY ao client.
+
+^ Este trecho fazia parte do comentário principal mas, por algum motivo (provavelmente por causa da repetição de palavras específicas (flood) ou o nome de empresas), o comentário estava sendo totalmente apagado. Então separei ele do texto principal, substituí todas as palavras que eu imaginei que pudesse ser um problema e consegui postar sem ser apagado. Fica mais incoveniente de ler, mas melhor do que nada né xD.

@@ -1,0 +1,8 @@
+O que estiver entre a tag <script> </script> será considerado um código em JavaScript.
+
+O método alert("") mostra uma caixa de diálogo de alerta. Dentro das aspas você pode definir o conteúdo desta mensagem de alerta. Só há a opção "OK" para o cliente clicar.
+
+O método confirm("") mostra uma caixa de confirmação. Dentro das aspas você pode definir o conteúdo desta mensagem de confirmação. Há as opções "OK" e "Cancelar" para o cliente clicar.
+
+O método prompt("") mostra um caixa de solicitação. Dentro das aspas você pode definir o conteúdo desta mensagem de solicitação. Dentro desta caixa haverá outra, uma caixa de mensagem, que permite o cliente atender a mensagem de solicitação. Há as opções "OK" e "Cancelar" para o cliente clicar.
+prompt == solicitar

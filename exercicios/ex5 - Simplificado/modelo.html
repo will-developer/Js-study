@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Modelo de exercicio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Tabuada</h1>
+        </header>
+        <section>
+            <p>
+                Número (entre 1 em 100):
+                <input type="text" name="texto" id="numero" />
+                <input type="button" id="verificar" value="Adicionar" onclick="adicionar()" />
+            </p>
+
+            <textarea name="tabuada" id="output" cols="22" rows="11"></textarea>
+            <div>
+                <input type="button" id="finalizar" value="Finalizar" onclick="resultado()" />
+            </div>
+        </section>
+        <footer>
+            <p>&copy; William</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+Operadores Relacionais - servem para fazer COMPARAÇÕES LÓGICAS (verdadeiro ou falso) entre variáveis, números ou expressões.
+*****Dado: x = 5.
+Exemplos:
+
+==  significa: VALOR IGUAL. Ex:
+x == 8 FALSE;   x == 5 TRUE;   x == "5" TRUE.
+
+=== significa: VALOR E TIPO IGUAL. Ex:
+x === 5 TRUE;   x === "5" FALSE.
+
+!=  significa: NÃO IGUAL. Ex:
+x != 8 TRUE.
+
+!== significa: VALOR OU TIPO NÃO IGUAL. Ex:
+x !== 5 FALSE;   x !== "5" TRUE;   x !== 8 TRUE.
+
+>   significa: MAIOR QUE. Ex:
+x > 8 FALSE.
+
+<   significa: MENOR QUE. Ex:
+x < 8 TRUE.
+
+>=  significa: MAIOR OU IGUAL À. Ex:
+x >= 8 FALSE.
+
+<=  significa: MENOR OU IGUAL À. Ex:
+x <= 8 TRUE.
+
+  Exemplos da aula:
+5  > 2  true
+7  < 4  false
+8 >= 8  true
+9 <= 7  false
+5 == 5  true
+4 != 4  false 
+____________________________
+
+  Operadores Lógicos - servem para REALIZAR OPERAÇÕES LÓGICAS entre VARIÁVEIS ou VALORES. Elas podem ser do tipo: NOT, AND e OR.
+*****Dado: x = 6;   y = 3.
+Exemplos:
+
+! significa: NOT (NEGAÇÃO) Ex:
+!(x == y)
+x NÃO é igual à y. Sim, eles NÃO são iguais. Então é VERDADEIRO.
+
+&& significa: AND (CONJUNÇÃO) Ex:
+(x < 10 && y > 1) 
+x é menor que 10 E y é menor que 1. Sim, então é VERDADEIRO.
+
+|| significa: OR (DISJUNÇÃO) Ex:
+(x == 5 || y == 5)
+x é igual à 5 OU y é igual à 5. Não, então é FALSO.
+
+  Ordem de Precedência:
+!      NOT
+&&  AND
+||     OR
+____________________________
+
+  Operador Ternário - É uma SIMPLIFICAÇÃO da ESTRUTURA CONDICIONAL IF/ELSE. É composto por 3 partes. Syntax: 
+teste ? true : false
+
+Exemplo utilizando IF/ELSE:
+if (autenticado) {
+    renderizarApp();
+} else {
+    renderizarLogin();
+}
+
+Exemplo utilizando OPERADOR TERNÁRIO:
+autenticado ? renderizarApp() : renderizarLogin();
+
+    Guardando o resultado dentro de uma variável:
+var ID = teste ? true : false
+    Ex:
+var idade = 19
+var r = idade >= 18 ? 'maior' : 'menor'
+    O resultado desta COMPARAÇÃO LÓGICA resultou em VERDADEIRO. Portanto, r recebeu o valor:
+'maior'
+____________________________
+
+  Ordem de Precedência entre OPERADORES:
+
+                      | ( )
+Aritméticos | **
+                      | * / %
+                      | + -
+
+                      | ==
+                      | ===
+                      | !=
+Relacionais | !==
+                      | >
+                      | <
+                      | >=
+                      | <=
+
+                      | !
+Lógicos        | &&
+                      | ||

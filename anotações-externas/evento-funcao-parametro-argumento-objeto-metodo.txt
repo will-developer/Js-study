@@ -1,0 +1,64 @@
+ O que é um EVENTO?
+
+Um EVENTO é uma CONDIÇÃO que, quando verdadeira, fará a CHAMADA de uma FUNÇÃO.
+
+    Exemplos de EVENTOS:
+
+O Evento onmouseenter="" serve para executar alguma FUNÇÃO no momento em que o cliente ENTRAR COM O CURSOR DENTRO do elemento.
+
+O Evento onmousemove="" serve para executar alguma FUNÇÃO no momento em que o cliente MOVER O CURSOR DENTRO do elemento.
+
+O Evento onmousedown="" serve para executar alguma FUNÇÃO no momento em que o cliente PRESSIONAR O CLICK DENTRO do elemento.
+
+O Evento onmouseup="" serve para executar alguma FUNÇÃO no momento em que o cliente SOLTAR O CLICK DENTRO do elemento.
+
+O Evento onclick="" serve para executar alguma FUNÇÃO no momento em que o cliente CLICAR DENTRO do elemento.
+
+O Evento onmouseout="" serve para executar alguma FUNÇÃO no momento em que o cliente SAIR COM O CURSOR DE DENTRO do elemento.
+
+O Evento onmouseover="" serve para executar alguma FUNÇÃO enquanto o cliente MANTER O CURSOR SOBRE o elemento.
+____________________________
+
+    O que é uma FUNÇÃO?
+
+Funções são subprogramas que podem RECEBER PARÂMETROS e RETORNAR um RESULTADO. São AÇÕES executadas assim que são CHAMADAS ou em decorrência de algum EVENTO. É um BLOCO de CÓDIGOS projetado para EXECUTAR uma TAREFA ou CALCULAR um VALOR. Syntax:
+function nomeDaFunção (parâmetro1, parâmetro2, parâmetro3...) {bloco de códigos}
+____________________________
+
+O método  addEventListener()  serve para "PLANTAR" uma "ESCUTA" em um ELEMENTO. Esta "escuta" CHAMARÁ uma FUNÇÃO no momento em que o EVENTO, definido como PARÂMETRO, seja VERDADEIRO. Syntax:
+element.addEventListener(event, function, useCapture)
+atenção: no parâmetro EVENT não usa-se o prefixo "on". Use: "click" ao invés de: "onclick".
+
+Como você pôde ver, a definição DESTE MÉTODO e a definição de EVENTO são a MESMA COISA. Da mesma forma que o Operador Ternário faz a MESMA COISA que a estrutura condicional IF/ELSE, só que de maneira mais simplificada, o método  addEventListener()  também faz a MESMA COISA que a primeira forma mostrada por Guanabara (onde os EVENTOS são inseridos na abertura da tag <div>), só que de maneira MENOS POLUÍDA VISUALMENTE, tornando o código mais LIMPO e ORGANIZADO. Desta forma os EVENTOS não ficam mais ESPALHADOS na parte estrutural da página (HTML5), reservando-se ORGANIZADAMENTE dentro da seção <script>
+____________________________
+
+A tag <input> serve para especificar uma ÁREA onde o usuário poderá SUBMETER DADOS. Assim como o método window.prompt(), a tag <input> também retorna um valor do tipo STRING. Então, para fazer a soma de 2 NUMBERS, é necessário converter o dado padrão de STRING para NUMBER.
+
+A propriedade .value serve para DEFINIR ou RETORNAR o valor de um atributo.
+____________________________
+
+    Diferença entre PARÂMETRO e ARGUMENTO:
+
+Parâmetros, ou PARÂMETROS FORMAIS, são VARIÁVEIS LOCAIS de uma FUNÇÃO. O VALOR DESTAS é definido na PASSAGEM dos ARGUMENTOS, na CHAMADA da FUNÇÃO.
+*Você pode NOMEAR os PARÂMETROS por questões ORGANIZACIONAIS, caso queira.
+
+Argumentos, ou PARÂMETROS REAIS, são os REAIS VALORES que serão PASSADOS como PARÂMETROS de uma FUNÇÃO.
+  Ex:
+function Boletim (nomeDoAluno, notaDoAluno) {bloco de códigos qualquer}
+
+  CHAMADA da FUNÇÃO e PASSAGEM dos ARGUMENTOS:
+Boletim("Rodolfo", 6.5)
+Passou-se o ARGUMENTO "Rodolfo" para o PARÂMETRO nomeDoAluno.
+Passou-se o ARGUMENTO  6.5  para o PARÂMETRO notaDoAluno.
+
+Parâmetro é o NOME do LOCAL que RECEBE os ARGUMENTOS.
+Argumentos são os REAIS VALORES que serão PASSADOS para este LOCAL.
+____________________________
+
+  O que é um MÉTODO?
+
+Um MÉTODO é uma FUNÇÃO que é ARMAZENADA como PROPRIEDADE de um OBJETO. Ou seja, MÉTODOS são AÇÕES que podem ser EXECUTADAS em OBJETOS.
+
+  O que é um OBJETO?
+
+Um OBJETO é um CONTAINER de PROPRIEDADES e MÉTODOS.

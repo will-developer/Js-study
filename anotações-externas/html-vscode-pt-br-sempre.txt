@@ -1,0 +1,5 @@
+Dica: Pra deixar padrão o 'lang pt-br' no html:5 (e tb no !) no vs code, va em configurações do VS Code, digite ‘snippets’, clique em ‘emmet’ e vai aparecer a opção para vc mudar.. basta colocar 'pt-br' no lugar de 'en' e sempre que vc iniciar um arquivo novo em HTML, vai estar lang='pt-br' :D
+
+Edit: Teve atualização, caso não apareça por padrão, crie um em Emmet: Variables.
+No Item coloque "Lang", no Valor coloque "pt-BR" e OK
+Bem legal.. :D

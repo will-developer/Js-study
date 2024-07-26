@@ -1,0 +1,31 @@
+<!-- 
+    O que é Callback Function?
+
+Callback Function é uma FUNÇÃO que é PASSADA como ARGUMENTO de OUTRA FUNÇÃO. Ex (rode este código (Live Server)): 
+-->
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Callback Function</h2>
+
+        <p>O RESULTADO da soma é:</p>
+        <p id="demo"></p>
+
+        <script>
+            function tela(algo) {
+                // 4) O ARGUMENTO  soma  é PASSADO para o PARÂMETRO  algo  , que então é IGUALADO ao  innerHTML  do elemento  p#demo  , exibindo o RESULTADO na tela.
+                document.getElementById("demo").innerHTML = algo;
+            }
+
+            let calculadora = (num1, num2, callback) => {
+                // 2) O ARGUMENTO  tela  foi PASSADO PARA o PARÂMETRO  callback  .
+                let soma = num1 + num2;
+                callback(soma); // 3) Chamou-se a FUNÇÃO  callback()  PASSANDO o ARGUMENTO  soma (que é: 10)  .
+            }; // 3.1) Isto é o MESMO que: chamar a FUNÇÃO  tela(algo)  e PASSAR o ARGUMENTO  10  para o PARÂMETRO  algo  .
+            //   3.2) OBSERVE: FUNÇÃO callback() == PARÂMETRO callback == FUNÇÃO tela()  .
+
+            calculadora(5, 5, tela); // 1) a FUNÇÃO  tela  foi PASSADA COMO ARGUMENTO da FUNÇÃO  calculadora  . Portanto  tela  é a Callback Function. ATENTE-SE: ela foi PASSADA COMO ARGUMENTO, porém NÃO PASSOU ARGUMENTO ALGUM AINDA (explicado no  passo 3  ).
+        </script>
+    </body>
+</html>

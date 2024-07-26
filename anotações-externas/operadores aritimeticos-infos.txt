@@ -1,0 +1,64 @@
+Operadores Aritméticos - servem para EXECUTAR OPERAÇÕES MATEMÁTICAS:
++    Adição
+-     Subtração
+*    Multiplicação (produto)
+**  Exponenciação (potenciação)
+/    Divisão (quociente)
+%   Módulo (resto da divisão)
+++ Incremento
+--   Decremento
+
+  Detalhes sobre INCREMENTO e DECREMENTO:
+O INCREMENTO ACRESCENTA +1 à uma variável; PRÉ-INCREMENTO (++n); PÓS-INCREMENTO (n++).
+O DECREMENTO DESCONTA -1 de uma variável. PRÉ-DECREMENTO (--n); PÓS-DECREMENTO (n--).
+
+  Ordem de Precedência - serve para INDICAR a ORDEM de EXECUÇÃO das OPERAÇÕES MATEMÁTICAS. Segue-se as regras da matemática tradicional:
+( )      Parênteses
+**      Exponenciação
+* / % Multiplicação; Divisão; Módulo
++ -     Adição; Subtração
+
+atenção: caso haja em uma expressão VÁRIOS OPERADORES de MESMA PRECEDÊNCIA (* / %, por exemplo), os cálculos serão executados NA ORDEM em que estes estão DISPOSTOS, ou seja, da ESQUERDA para a DIREITA.
+
+Exemplos da aula:
+var a = 5 + 3               =  8
+var b = a % 5              =  3
+var c = 5 * b ** 2        =  45
+var d = 10 - a / 2        =  6
+var e = 6 * 2 / d          =  2
+vae f = b % e + 4 / e   =  3
+
+  Os OPERANDOS podem ser:
+LITERAIS         (var x = 100 + 50);
+VARIÁVEIS      (var x = a + b);
+EXPRESSÕES (var x = (100 + 50) * a).
+
+Diferença entre OPERADOR e OPERANDO:
+OPERADOR refere-se ao OPERADOR ARITMÉTICO. Ex: +, -, *, etc.
+OPERANDO refere-se aos NÚMEROS que estão sendo OPERADOS. Ex: (100 + 50). 100 e 50 são os OPERANDOS; + é o OPERADOR.
+____________________________
+
+  Operadores de Atribuição - servem para ATRIBUIR VALORES ÀS VARIÁVEIS.
+
+=   significa: RECEBE O VALOR. Ex:
+x = y    equivale à:  x = y
+
++=  significa: RECEBE O VALOR DA SOMA ENTRE AS VARIÁVEIS ADJACENTES. Ex:
+x += y   equivale à:  x = x + y
+
+-=  significa: RECEBE O VALOR DA SUBTRAÇÃO ENTRE AS VARIÁVEIS ADJACENTES. Ex:
+x -= y   equivale à:  x = x - y
+
+*=  significa: RECEBE O VALOR DA MULTIPLICAÇÃO ENTRE AS VARIÁVEIS ADJACENTES. Ex:
+x *= y   equivale à:  x = x * y
+
+/=  significa: RECEBE O VALOR DA DIVISÃO ENTRE AS VARIÁVEIS ADJACENTES. Ex:
+x /= y   equivale à:  x = x / y
+
+%=  significa: RECEBE O VALOR DO MÓDULO ENTRE AS VARIÁVEIS ADJACENTES. Ex:
+x %= y   equivale à:  x = x % y
+
+**= significa: RECEBE O VALOR DA EXPONENCIAÇÃO ENTRE AS VARIÁVEIS ADJACENTES. Ex:
+x *= y  equivale à:  x = x * y
+
+ADJACENTE significa: ao lado de; junto; vizinho. Ex: Caso você more em uma casa, seus vizinhos, da ESQUERDA e da DIREITA, estão em uma posição ADJACENTE em relação à você.

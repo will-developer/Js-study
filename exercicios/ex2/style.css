@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(48, 48, 155);
+    font: normal 15pt arial;
+    margin: 0;
+}
+
+header,
+footer {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 25px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.421);
+}
+
+section p {
+    margin: 0;
+}
+
+#pinput {
+    margin: 0 5px;
+}
+
+#first {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#radio {
+    display: flex;
+    margin: 0;
+}
+
+#verificar {
+    margin: 20px 0;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+section #imagem {
+    border-radius: 50%;
+    margin: 20px auto 0;
+    width: 70%;
+    display: none;
+}
+
+h1 {
+    margin-top: 80px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 15pt;
+    font-weight: 400;
+}
+
+footer {
+    font-style: italic;
+}
